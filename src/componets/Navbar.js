@@ -21,17 +21,6 @@ const Navbar = () => {
         <h1 className='font-extrabold text-4xl font-sacramento text-violet-900  bg-transparant rounded-full h-10 w-10 pr-2 pl-1 pb-[5px] border-2 border-violet-900 mr-2'>m</h1>
         <h1 className='font-yatra text-violet-900 mt-[5px] ml-2 text-3xl'>Mounika</h1>
       </div>
-
-      {/* <div className="dropdown md:hidden ">
-                    <label tabindex="0" class="btn btn-ghost ">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0"  className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        {menuItems.map((menuItem) => 
-                     <li key={menuItem.name} className='mr-8 hover:text-violet-900 text-gray-700 text-xl font-bold'><Link href={menuItem.link}>{menuItem.name}</Link></li>
-                        )}
-                    </ul>
-        </div> */}
       
       <section className="MOBILE-MENU flex lg:hidden mt-8 mr-12">
           <div
@@ -67,13 +56,13 @@ const Navbar = () => {
         )}
             </ul>
           </div>
-        </section>
-      
+        </section>      
       <ul className='mt-8 hidden md:flex md:flex-row md:block mr-8 '>
           {menuItems.map((menuItem) => 
           <li key={menuItem.name} className='mr-8 hover:text-violet-900 text-gray-700 text-xl font-bold'><a href={menuItem.link}>{menuItem.name}</a></li>
         )}
-      </ul>
+        <div className='mx-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
+        </ul>
       <style>{`
       .hideMenuNav {
         display: none;

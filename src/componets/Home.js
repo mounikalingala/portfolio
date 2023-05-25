@@ -7,10 +7,9 @@ import Profile from './Profile'
 
 const Home=() =>{
   return (
-    <div className="p-12 bg-white bg-no-repeat w-full h-full bg-cover">
+    <div className=" bg-white bg-no-repeat w-full h-full bg-cover">
       <Profile />
       <Projects />
-      <Blogs />
       <About />
       <Contact />
       
