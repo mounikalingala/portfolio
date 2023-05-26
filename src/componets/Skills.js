@@ -1,7 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical'
 
-const Blogs=()=> {
+const Skils=()=> {
   return (
     <div className='text-center mt-40 text-violet-900 font-bold text-5xl'>
       <Typical steps={[
@@ -12,4 +12,4 @@ const Blogs=()=> {
   )
 }
 
-export default Blogs
+export default Skils

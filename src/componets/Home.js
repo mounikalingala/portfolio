@@ -1,9 +1,9 @@
 import React from 'react'
 import Projects from './Projects'
-import Blogs from './Blogs'
 import About from './About'
 import Contact from './Contact'
 import Profile from './Profile'
+import Skills from "./Skills"
 
 const Home=() =>{
   return (
@@ -11,6 +11,7 @@ const Home=() =>{
       <Profile />
       <Projects />
       <About />
+      <Skills/>
       <Contact />
       
     </div>

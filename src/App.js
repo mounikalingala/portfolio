@@ -4,7 +4,7 @@ import About from './componets/About';
 import Home from './componets/Home';
 import Projects from './componets/Projects';
 import Contact from './componets/Contact';
-import Blogs from './componets/Blogs';
+import Skills from './componets/Skills';
 import Navbar from './componets/Navbar';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route path='/' Component={Home} />
         <Route path='/projects' Component={Projects} />
         <Route path='/about' Component={About} />
-        <Route path='/blogs' Component={Blogs} />
+        <Route path='/skills' Component={Skills} />
         <Route path='/contact' Component={Contact} />
       </Routes>
     </BrowserRouter>

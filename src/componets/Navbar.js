@@ -5,7 +5,7 @@ let menuItems = [
     { name: "Home", link: "/" },
     { name: "Projects", link: "/Projects" },
     { name: "About", link: "/about" },
-    { name: "Blogs", link: "/blogs" },
+    { name: "Skills", link: "/blogs" },
     { name: "Contact", link: "/contact" }
   ]
 
