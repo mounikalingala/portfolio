@@ -15,21 +15,21 @@ const Skils=()=> {
             <ImHtmlFive size="30" />
             <h1 className='ml-2 font-bold'>HTML5</h1>
           </div>
-          <p className='text-sm text-gray-500'>Learned and certifiend in HTML5 and I heve two yeares of experience, expert according to proficiency and build some simple projects. </p>
+          <p className='text-sm text-gray-500'>Learned and certifiend in HTML5 and I heve two years of experience, expert according to proficiency and build some simple projects. </p>
         </div>
         <div className='flax flex-col bg-zinc-50 relative w-80 shadow-inner shadow rounded-lg p-8 shadow-black contrast-125 '>
           <div className='flex flex-row text-pink-600 text-xl mb-4'>
             <SiCss3 size="30" />
             <h1 className='ml-2 font-bold'>CSS3</h1>
           </div>
-          <p className='text-sm text-gray-500'>Learned and certifiend in CSS3 and I heve two yeares of experience, expert according to proficiency and styled and build some responsive projects. </p>
+          <p className='text-sm text-gray-500'>Learned and certifiend in CSS3 and I heve two years of experience, expert according to proficiency and styled and build some responsive projects. </p>
         </div>
         <div className='flax flex-col bg-zinc-50 relative w-80 shadow-inner shadow rounded-lg p-8 shadow-black contrast-125 '>
           <div className='flex flex-row text-pink-600 text-xl mb-4'>
             <TbBrandJavascript size="40" />
             <h1 className='ml-2 font-bold'>Javascript</h1>
           </div>
-          <p className='text-sm text-gray-500'>Learned and certifiend in Javascript and I heve two yeares of experience, expert according to proficiency and build some dynamic projects. </p>
+          <p className='text-sm text-gray-500'>Learned and certifiend in Javascript and I heve two years of experience, expert according to proficiency and build some dynamic projects. </p>
         </div>
         <div className='flax flex-col bg-zinc-50 relative w-80 shadow-inner shadow rounded-lg p-8 shadow-black contrast-125 '>
           <div className='flex flex-row text-pink-600 text-xl mb-4'>
