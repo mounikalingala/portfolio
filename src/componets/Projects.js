@@ -16,7 +16,7 @@ import project4 from "../assets/images/food-munch.png"
 const Projects=()=> {
   return (
     <div className='m-12 p-8 bg-violet-50 bg-full rounded-xl border'>
-      <h1 className='text-center font-yatra text-violet-900 text-5xl font-bold mt-8 mb-12'>My Projects</h1>
+      <h1 className='text-center font-yatra text-pink-600 text-5xl font-bold mt-8 mb-12'>My Projects</h1>
       <div className='grid md:grid-cols-3 flex flex-col justify-center md:flex-row flex-wrap mt-8 mb'>
         <div className='bg-zinc-50 mb-12 rounded-lg w-80 ml-4 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
           <img src={project1} alt="" className='rounded-t-lg' />
@@ -59,7 +59,7 @@ const Projects=()=> {
           </div>
         </div>
         <div className='bg-zinc-50 mb-12 rounded-lg w-80 ml-4 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
-          <img src={project1} alt="" className='rounded-t-lg' />
+          <img src={project3} alt="" className='rounded-t-lg' />
           <div className='flex flex-col items-center p-4'>
             <h1 className='text-gray-700 font-bold text-pink-600 text-lg'>Openauto</h1>
             <p className=" text-gray-500 text-sm m-2 ">

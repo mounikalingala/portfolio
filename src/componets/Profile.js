@@ -14,7 +14,7 @@ const Profile=()=> {
                   <h3 className='text-gray-700 text-2xl font-semibold'>Fullstack Developer</h3>
                   
                   <button type='button' className='mt-8 bg-pink-500 text-violet-900 text-xl font-semibold w-100 h-12 rounded-full ml-20 hover:border hover:bg-transparent hover:text-pink-600 hover:border-pink-500 focus:'>
-                      <a href='https://drive.google.com/file/d/1P-znRTT-6rCBFWAjHnhFgB5mvigvTLF7/view?usp=drivesdk' target='_blank' className='flex flex-row justify-center transition' >Resume <FaDownload className=' ml-4 mt-2' /></a>
+                      <a href='https://drive.google.com/file/d/1P-znRTT-6rCBFWAjHnhFgB5mvigvTLF7/view?usp=drivesdk' target='_blank' className='flex flex-row justify-center transition' >Resume <FaDownload className='animate-bounce ml-4 mt-2' /></a>
                   </button>
                   <div className='flex flex-row justify-between mt-4'>
                       <h1 className='mt-4 text-gray-700 hidden md:block font-semibold'>Follow Me _______</h1>
