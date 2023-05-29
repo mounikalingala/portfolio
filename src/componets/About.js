@@ -66,10 +66,10 @@ const About=() =>{
         </div>
        </div>
       <div className='mt-4 ml-4 flex flex-row gap-8  text-violet-900'>
-         <a href='https://www.facebook.com/mounikagoud.lingala?mibextid=ZbWKwL' target='_blank' network='facebook' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsFacebook size="30" /></a>
-         <a href='https://instagram.com/sireeshgoud_lingala?igshid=ZGUzMzM3NWJiOQ==' target='_blank' network='instagram' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><AiFillInstagram size="34" /></a>
-         <a href='https://www.linkedin.com/in/mounika-lingala-672008194/' target='_blank' network='linkedin' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><FaLinkedin size="30" /></a>
-         <a href='https://github.com/mounikalingala' target='_blank' network='github' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsGithub size="30"  /></a>                   
+         <a href='https://www.facebook.com/mounikagoud.lingala?mibextid=ZbWKwL' rel="noreferrer" target='_blank' network='facebook' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsFacebook size="30" /></a>
+         <a href='https://instagram.com/sireeshgoud_lingala?igshid=ZGUzMzM3NWJiOQ==' rel="noreferrer" target='_blank' network='instagram' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><AiFillInstagram size="34" /></a>
+         <a href='https://www.linkedin.com/in/mounika-lingala-672008194/' rel="noreferrer" target='_blank' network='linkedin' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><FaLinkedin size="30" /></a>
+         <a href='https://github.com/mounikalingala' target='_blank' rel="noreferrer" network='github' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsGithub size="30"  /></a>                   
         </div>
 
       </div>

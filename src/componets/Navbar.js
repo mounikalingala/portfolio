@@ -51,14 +51,14 @@ const Navbar = () => {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               {menuItems.map((menuItem) => 
-          <li key={menuItem.name} className='mr-8 hover:text-violet-900 text-gray-700 text-lg font-semibold'><a href={menuItem.link}>{menuItem.name}</a></li>
+          <li key={menuItem.name} className='mr-8 hover:text-violet-900 text-gray-700 text-lg font-semibold'><a href={menuItem.link} rel="noreferrer">{menuItem.name}</a></li>
         )}
             </ul>
           </div>
         </section>      
       <ul className='mt-8 hidden md:flex md:flex-row md:block mr-8 '>
           {menuItems.map((menuItem) => 
-          <li key={menuItem.name} className='mr-8 hover:text-pink-600 text-gray-700 text-lg font-semibold transition hover:-translate-y-1 '><a href={menuItem.link}>{menuItem.name}</a></li>
+          <li key={menuItem.name} className='mr-8 hover:text-pink-600 text-gray-700 text-lg font-semibold transition hover:-translate-y-1 '><a href={menuItem.link} rel="noreferrer">{menuItem.name}</a></li>
         )}
         <div className='mx-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
         </ul>

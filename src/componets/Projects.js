@@ -33,7 +33,7 @@ const Projects=()=> {
             <a href='mouniskitchen.ccbp.tech'><AiFillEye size="30" /></a>
               </div>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-                <a href='https://github.com/mounikalingala/swiggyClone_tastyKitchens' target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
+                <a href='https://github.com/mounikalingala/swiggyClone_tastyKitchens' rel="noreferrer" target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Projects=()=> {
             <a href='storapps.ccbp.tech'><AiFillEye size="30" /></a>
               </div>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-                <a href='https://github.com/mounikalingala' target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
+                <a href='https://github.com/mounikalingala' rel="noreferrer" target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
               </div>
             </div>
           </div>
@@ -70,10 +70,10 @@ const Projects=()=> {
           <div className=' absolute top-0 right-0 left-0 h-40 w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-            <a href='https://sage-genie-ffb86f.netlify.app'><AiFillEye size="30" /></a>
+            <a href='https://sage-genie-ffb86f.netlify.app' rel="noreferrer"><AiFillEye size="30" /></a>
               </div>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-                <a href='https://github.com/mounikalingala/openauto' target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
+                <a href='https://github.com/mounikalingala/openauto' rel="noreferrer" target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
               </div>
             </div>
           </div>
@@ -90,10 +90,10 @@ const Projects=()=> {
           <div className=' absolute top-0 right-0 left-0 h-40 w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-            <a href=''><AiFillEye size="30" className='' /></a>
+            <a href='mounikafoods.ccbp.tech'><AiFillEye size="30" className='' /></a>
               </div>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-                <a href='https://github.com/mounikalingala' target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
+                <a href='https://github.com/mounikalingala' rel="noreferrer" target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
               </div>
             </div>
           </div>
