@@ -15,10 +15,10 @@ import project4 from "../assets/images/food-munch.png"
 
 const Projects=()=> {
   return (
-    <div className='m-12 p-8 bg-violet-50 bg-full rounded-xl border'>
+    <div className='m-8 p-8 bg-violet-50 bg-full rounded-xl border'>
       <h1 className='text-center font-yatra text-pink-600 text-5xl font-bold mt-8 mb-12'>My Projects</h1>
-      <div className='grid md:grid-cols-3 flex flex-col justify-center md:flex-row flex-wrap mt-8 mb'>
-        <div className='bg-zinc-50 mb-12 rounded-lg w-80 ml-4 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
+      <div className='grid md:grid-cols-3 flex flex-col justify-center items-center md:flex-row flex-wrap mt-8'>
+        <div className='bg-zinc-50 mb-12 rounded-lg w-64 md:w-80 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
           <img src={project1} alt="" className='rounded-t-lg' />
           <div className='flex flex-col items-center p-4'>
             <h1 className='text-gray-700 font-bold text-pink-600 text-lg'>Tasty Kitchens</h1>
@@ -27,7 +27,7 @@ const Projects=()=> {
             </p>
             <button className='mt-4 bg-pink-600 rounded-lg text-sm transition hover:bg-opacity-75 focus:outline-none hover:focus:ring hover:ring-pink-300 hover:-tranlate-x-2 scale-100 duration-300 text-white hover:font-semibold h-10 w-28'>Explore More</button>
           </div>
-          <div className=' absolute top-0 right-0 left-0 h-40 w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
+          <div className=' absolute top-0 right-0 left-0 h-32 md:h-40 w-64 md:w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
             <a href='mouniskitchen.ccbp.tech'><AiFillEye size="30" /></a>
@@ -38,7 +38,7 @@ const Projects=()=> {
             </div>
           </div>
         </div>
-        <div className='bg-zinc-50 mb-12 rounded-lg w-80 ml-4 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
+        <div className='bg-zinc-50 mb-12 rounded-lg w-64 md:w-80 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
           <img src={project2} alt="" className='rounded-t-lg' />
           <div className='flex flex-col items-center p-4'>
             <h1 className='text-gray-700 font-bold text-pink-600 text-lg'>Appstore</h1>
@@ -47,7 +47,7 @@ const Projects=()=> {
             </p>
             <button className='mt-4 bg-pink-600 rounded-lg text-sm transition hover:bg-opacity-75 focus:outline-none hover:focus:ring hover:ring-pink-300 hover:-tranlate-x-2 scale-100 duration-300 text-white hover:font-semibold h-10 w-28'>Explore More</button>
           </div>
-          <div className=' absolute top-0 right-0 left-0 h-40 w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
+          <div className=' absolute top-0 right-0 left-0 h-32 md:h-40 w-64 md:w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
             <a href='storapps.ccbp.tech'><AiFillEye size="30" /></a>
@@ -58,7 +58,7 @@ const Projects=()=> {
             </div>
           </div>
         </div>
-        <div className='bg-zinc-50 mb-12 rounded-lg w-80 ml-4 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
+        <div className='bg-zinc-50 mb-12 rounded-lg w-64 md:w-80 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
           <img src={project3} alt="" className='rounded-t-lg' />
           <div className='flex flex-col items-center p-4'>
             <h1 className='text-gray-700 font-bold text-pink-600 text-lg'>Openauto</h1>
@@ -67,7 +67,7 @@ const Projects=()=> {
             </p>
             <button className='mt-4 bg-pink-600 rounded-lg text-sm transition hover:bg-opacity-75 focus:outline-none hover:focus:ring hover:ring-pink-300 hover:-tranlate-x-2 scale-100 duration-300 text-white hover:font-semibold h-10 w-28'>Explore More</button>
           </div>
-          <div className=' absolute top-0 right-0 left-0 h-40 w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
+          <div className=' absolute top-0 right-0 left-0 h-32 md:h-40 w-64 md:w-80  rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
             <a href='https://sage-genie-ffb86f.netlify.app' rel="noreferrer"><AiFillEye size="30" /></a>
@@ -78,7 +78,7 @@ const Projects=()=> {
             </div>
           </div>
         </div>
-        <div className='bg-zinc-50 mb-12 rounded-lg w-80 ml-4 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
+        <div className='bg-zinc-50 mb-12 rounded-lg w-64 md:w-80 h-[360px] border-l-4 border-pink-500 transition hover:border-r-4 hover:border-pink-500 hover:border-0 hover:-translate-y-1 duration-300 hover:scale-200 shadow-xl shadow-black relative group '>
           <img src={project4} alt="" className='rounded-t-lg' />
           <div className='flex flex-col items-center p-4'>
             <h1 className='text-gray-700 font-bold text-pink-600 text-lg'>Food unch</h1>
@@ -87,7 +87,7 @@ const Projects=()=> {
             </p>
             <button className='mt-4 bg-pink-600 rounded-lg text-sm transition hover:bg-opacity-75 focus:outline-none hover:focus:ring hover:ring-pink-300 hover:-tranlate-x-2 scale-100 duration-300 text-white hover:font-semibold h-10 w-28'>Explore More</button>
           </div>
-          <div className=' absolute top-0 right-0 left-0 h-40 w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
+          <div className=' absolute top-0 right-0 left-0 h-32 md:h-40 w-64 md:w-80  rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
             <a href='mounikafoods.ccbp.tech'><AiFillEye size="30" className='' /></a>

@@ -6,14 +6,14 @@ import image from '../assets/images/mounika-img.png'
 
 const Profile=()=> {
   return (
-      <div className='bg-gradient-to-r from-pink-200 to-violet-200 rounded-xl m-12'>
+      <div className='bg-gradient-to-r from-pink-200 to-violet-200 rounded-xl m-8'>
           <div className='flex flex-col md:flex md:flex-row justify-center items-center p-20'>
-              <div className='mr-12 order-2 md:order-1 flex flex-col pt-0'>
+              <div className='mr-12 order-2 md:order-1 flex flex-col pt-0 pl-4 md:pl-4'>
                   <h1 className='text-4xl font-bold '>Hello!</h1>
                   <h1 className='text-2xl mt-4 mb-4 font-bold'>I'm <span className='font-nova ml-2 text-4xl font-bold text-pink-600'>Mounika Lingala</span></h1>
                   <h3 className='text-gray-700 text-2xl font-semibold'>Fullstack Developer</h3>
                   
-                  <button type='button' className='mt-8 bg-pink-500 text-violet-900 text-xl font-semibold w-100 h-12 rounded-full ml-20 hover:border hover:bg-transparent hover:text-pink-600 hover:border-pink-500 focus:'>
+                  <button type='button' className='mt-8 bg-pink-500 text-violet-900 text-xl font-semibold w-40 h-12 rounded-full ml-20 hover:border hover:bg-transparent hover:text-pink-600 hover:border-pink-500 focus:'>
                       <a href='https://drive.google.com/file/d/1P-znRTT-6rCBFWAjHnhFgB5mvigvTLF7/view?usp=drivesdk' rel="noreferrer" target='_blank' className='flex flex-row justify-center transition' >Resume <FaDownload className='animate-bounce ml-4 mt-2' /></a>
                   </button>
                   <div className='flex flex-row justify-between mt-4'>

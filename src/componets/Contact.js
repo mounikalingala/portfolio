@@ -19,10 +19,10 @@ const Contact = () => {
     };
 
   return (
-    <div className='flex justify-center flex-col text-center m-12 bg-pink-100 font-bold text-5xl rounded-xl p-12'>
+    <div className='flex justify-center flex-col text-center m-8 bg-pink-100 font-bold text-5xl rounded-xl p-12'>
       <h1 className="text-center font-yatra text-violet-900 mt-4">Contact Me</h1> 
       <div className='flex flex-col items-center md:flex-row md:justify-between mt-8'>
-        <div className='flex flex-col order-2 md:order-1 mt-12'>
+        <div className='flex flex-col order-2 md:order-1 mt-12 pl-4'>
           <div className='flex flex-row mb-8'>
             <BsFillPersonFill size="30 " className='text-pink-700' /> 
             <h1 className='text-lg ml-4 text-gray-600 mt-1 font-semibold'>Mounika Lingala</h1>
@@ -33,7 +33,7 @@ const Contact = () => {
           </div>
           <div className='flex flex-row mb-8'>
             <MdEmail size="30 " className='text-pink-700' /> 
-            <h1 className='text-lg ml-4 text-gray-600 mt-1 font-semibold'>mounikagoudlingala@gmail.com</h1>
+            <h1 className='text-sm md:text-lg ml-4 text-gray-600 mt-1 font-semibold'>mounikagoudlingala@gmail.com</h1>
           </div>
           <div className='flex flex-row mb-8'>
             <MdLocationOn size="30 " className='text-pink-700' /> 

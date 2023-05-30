@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom';
 
 let menuItems = [
     { name: "HOME", link: "/" },
-    { name: "PROJECTS", link: "/Projects" },
+    { name: "PROJECTS", link: "/projects" },
     { name: "ABOUT", link: "/about" },
     { name: "SKILLS", link: "/skills" },
     { name: "CONTACT", link: "/contact" }
@@ -14,7 +15,7 @@ const Navbar = () => {
  
   return (
 
-    <div className='flex h-20 bg-gradient-to-r from-violet-200 to-pink-200  rounded-xl flex-row justify-between m-12 mb-0'>
+    <div className='flex h-20 bg-gradient-to-r from-violet-200 to-pink-200  rounded-xl flex-row justify-between ml-8 mr-8 mt-8 '>
      
       <div className='p-[25px] flex flex-row ml-4 ' >
         <h1 className='font-extrabold text-4xl font-sacramento text-violet-900  bg-transparant rounded-full h-10 w-10 pr-2 pl-1 pb-[5px] border-2 border-violet-900 mr-2'>m</h1>
@@ -51,14 +52,14 @@ const Navbar = () => {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               {menuItems.map((menuItem) => 
-          <li key={menuItem.name} className='mr-8 hover:text-violet-900 text-gray-700 text-lg font-semibold'><a href={menuItem.link} rel="noreferrer">{menuItem.name}</a></li>
+          <li key={menuItem.name} className='mr-8 hover:text-pink-600 text-gray-700 text-lg font-semibold transition hover:-translate-y-1'><Link to={menuItem.link}>{menuItem.name}</Link></li>
         )}
             </ul>
           </div>
         </section>      
       <ul className='mt-8 hidden md:flex md:flex-row md:block mr-8 '>
-          {menuItems.map((menuItem) => 
-          <li key={menuItem.name} className='mr-8 hover:text-pink-600 text-gray-700 text-lg font-semibold transition hover:-translate-y-1 '><a href={menuItem.link} rel="noreferrer">{menuItem.name}</a></li>
+           {menuItems.map((menuItem) => 
+          <li key={menuItem.name} className='mr-8 hover:text-pink-600 text-gray-700 text-lg font-semibold transition hover:-translate-y-1'><Link to={menuItem.link}>{menuItem.name}</Link></li>
         )}
         <div className='mx-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div>
         </ul>

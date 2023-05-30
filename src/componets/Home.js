@@ -7,7 +7,7 @@ import Skills from "./Skills"
 
 const Home=() =>{
   return (
-    <div className=" bg-white bg-no-repeat w-full h-full bg-cover">
+    <div className=" bg-white">
       <Profile />
       <Projects />
       <About />
