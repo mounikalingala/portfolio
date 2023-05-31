@@ -3,7 +3,6 @@ import { FaDownload,FaLinkedin } from "react-icons/fa"
 import { BsFacebook,BsGithub } from 'react-icons/bs'
 import {AiFillInstagram} from 'react-icons/ai'
 import image from '../assets/images/mounika-img.png'
-import { Link } from 'react-router-dom'
 
 const Profile=()=> {
   return (
@@ -20,10 +19,10 @@ const Profile=()=> {
                   <div className='flex flex-row justify-between mt-4'>
                       <h1 className='mt-4 text-gray-700 hidden md:block font-semibold'>Follow Me _______</h1>
                       <div className='mt-4 ml-4 flex flex-row gap-4'>
-                          <Link href='https://www.facebook.com/mounikagoud.lingala?mibextid=ZbWKwL' rel="noreferrer" target='_blank' network='facebook' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsFacebook size="30" /></Link>
-                          <Link href='https://instagram.com/sireeshgoud_lingala?igshid=ZGUzMzM3NWJiOQ==' rel="noreferrer" target='_blank' network='instagram' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><AiFillInstagram size="34" /></Link>
-                          <Link href='https://www.linkedin.com/in/mounika-lingala-672008194/' rel="noreferrer" target='_blank' network='linkedin' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><FaLinkedin size="30" /></Link>
-                          <Link href='https://github.com/mounikalingala' rel="noreferrer" target='_blank' network='github' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsGithub size="30"  /></Link>                   
+                          <a href='https://www.facebook.com/mounikagoud.lingala?mibextid=ZbWKwL' rel="noreferrer" target='_blank' network='facebook' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsFacebook size="30" /></a>
+                          <a href='https://instagram.com/sireeshgoud_lingala?igshid=ZGUzMzM3NWJiOQ==' rel="noreferrer" target='_blank' network='instagram' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><AiFillInstagram size="34" /></a>
+                          <a href='https://www.linkedin.com/in/mounika-lingala-672008194/' rel="noreferrer" target='_blank' network='linkedin' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><FaLinkedin size="30" /></a>
+                          <a href='https://github.com/mounikalingala' rel="noreferrer" target='_blank' network='github' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsGithub size="30"  /></a>                   
                       </div>
                       
                   </div>

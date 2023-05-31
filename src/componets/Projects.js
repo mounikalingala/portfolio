@@ -30,7 +30,7 @@ const Projects=()=> {
           <div className=' absolute top-0 right-0 left-0 h-32 md:h-40 w-64 md:w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-            <a href='mouniskitchen.ccbp.tech'><AiFillEye size="30" /></a>
+            <a href='https://mouniskitchen.ccbp.tech' rel="noreferrer" target='_blank' ><AiFillEye size="30" /></a>
               </div>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
                 <a href='https://github.com/mounikalingala/swiggyClone_tastyKitchens' rel="noreferrer" target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
@@ -50,7 +50,7 @@ const Projects=()=> {
           <div className=' absolute top-0 right-0 left-0 h-32 md:h-40 w-64 md:w-80 rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-            <a href='storapps.ccbp.tech'><AiFillEye size="30" /></a>
+            <a href='https://storapps.ccbp.tech/' rel="noreferrer" target='_blank'><AiFillEye size="30" /></a>
               </div>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
                 <a href='https://github.com/mounikalingala' rel="noreferrer" target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
@@ -90,7 +90,7 @@ const Projects=()=> {
           <div className=' absolute top-0 right-0 left-0 h-32 md:h-40 w-64 md:w-80  rounded-lg opacity-0 bg-opacity-50 group-hover:opacity-100 bg-black'>
             <div className='flex flex-row gap-8 items-center mt-[65px] justify-center text-black'>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
-            <a href='mounikafoods.ccbp.tech'><AiFillEye size="30" className='' /></a>
+            <a href='https://mounikafoods.ccbp.tech/' rel="noreferrer" target='_blank' network=''><AiFillEye size="30" className='' /></a>
               </div>
               <div className='bg-black opacity-75 p-2 rounded-full text-white'>
                 <a href='https://github.com/mounikalingala' rel="noreferrer" target='_blank' network='github' className='opacity-100'><BsGithub size="30" /></a>  
