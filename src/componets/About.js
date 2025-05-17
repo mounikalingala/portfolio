@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div className='flex flex-col text-left w-64 md:w-80'>
             <h1 className='text-pink-600 text-3xl mt-0 mb-4 font-normal'>Education</h1>
-            <p className='text-sm font-normal text-gray-500'>Completed my Master of Business Administration in Avanthi Institute of Engineering and Technology in HumanResoures Specialization (2018-21).</p>
+            <p className='text-sm font-normal text-gray-500'>Completed my Master of Business Administration in Avanti Institute of Engineering and Technology in Human Resources Specialization (2018-21).</p>
           </div>
         </div>
         <div className='flex flex-col mb-12 md:flex-row items-center md:justify-between border-b border-dashed border-pink-300 p-8'>
@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className='flex flex-col text-left w-64 md:w-80 md:order-1'>
             <h1 className='text-pink-600 text-3xl mt-0 mb-4 font-normal'>Skills</h1>
-            <p className='text-sm font-normal text-gray-500'>Certified as a fullstack web developer by NxtWave, including the skills are HTML, CSS, TailwindCss, JavaSript, React.Js, MongoDb, SqLite, Node.Js and Express.</p>
+            <p className='text-sm font-normal text-gray-500'>Certified as a fullstack web developer by NxtWave, including the skills are HTML, CSS, TailwindCss, JavaScript, React.Js, MongoDb, SqLite, Node.Js and Express.</p>
           </div>
         </div>
         <div className='flex flex-col mb-12 md:flex-row items-center md:justify-between border-b border-dashed border-pink-300 p-8'>
