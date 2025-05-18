@@ -14,15 +14,15 @@ const Profile = () => {
                     <h3 className='text-gray-700 text-2xl font-semibold'>Fullstack Developer</h3>
 
                     <button type='button' className='mt-8 bg-pink-500 text-violet-900 text-xl font-semibold w-40 h-12 rounded-full ml-20 hover:border hover:bg-transparent hover:text-pink-600 hover:border-pink-500 focus:'>
-                        <a href='https://drive.google.com/file/d/1O-Nh_lEBmRa_Wf5uWQeOqjfzTj-5L4nX/view?usp=drive_link' rel="" target='_blank' className='flex flex-row justify-center transition' >Resume <FaDownload className='animate-bounce ml-4 mt-2' /></a>
+                        <a href='https://drive.google.com/file/d/1O-Nh_lEBmRa_Wf5uWQeOqjfzTj-5L4nX/view?usp=drive_link' rel="noreferrer" target='_blank' className='flex flex-row justify-center transition' >Resume <FaDownload className='animate-bounce ml-4 mt-2' /></a>
                     </button>
                     <div className='flex flex-row justify-between mt-4'>
                         <h1 className='mt-4 text-gray-700 hidden md:block font-semibold'>Follow Me _______</h1>
                         <div className='mt-4 ml-4 flex flex-row gap-4'>
-                            <a href='https://www.facebook.com/mounikagoud.lingala?mibextid=ZbWKwL' rel="" target='_blank' network='facebook' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsFacebook size="30" /></a>
-                            <a href='https://instagram.com/sireeshgoud_lingala?igshid=ZGUzMzM3NWJiOQ==' rel="" target='_blank' network='instagram' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><AiFillInstagram size="34" /></a>
-                            <a href='https://www.linkedin.com/in/mounika-lingala-672008194/' rel="" target='_blank' network='linkedin' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><FaLinkedin size="30" /></a>
-                            <a href='https://github.com/mounikalingala' rel="" target='_blank' network='github' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsGithub size="30" /></a>
+                            <a href='https://www.facebook.com/mounikagoud.lingala?mibextid=ZbWKwL' rel="noreferrer" target='_blank' network='facebook' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsFacebook size="30" /></a>
+                            <a href='https://instagram.com/sireeshgoud_lingala?igshid=ZGUzMzM3NWJiOQ==' rel="noreferrer" target='_blank' network='instagram' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><AiFillInstagram size="34" /></a>
+                            <a href='https://www.linkedin.com/in/mounika-lingala-672008194/' rel="noreferrer" target='_blank' network='linkedin' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><FaLinkedin size="30" /></a>
+                            <a href='https://github.com/mounikalingala' rel="noreferrer" target='_blank' network='github' className='transition ease-in-out hover:scale-110 hover:-translate-y-1 duration-150'><BsGithub size="30" /></a>
                         </div>
 
                     </div>
